@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FedEx Tracking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #662d91;
+      padding-bottom: 10px;
+    }
+    .header img {
+      height: 50px;
+    }
+    .tracking-info {
+      margin-top: 20px;
+    }
+    .tracking-info h2 {
+      color: #662d91;
+    }
+    .tracking-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    .tracking-table th, .tracking-table td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    .status {
+      font-weight: bold;
+      color: green;
+      margin-top: 20px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>FedEx Tracking</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/FedEx_Express.svg/2560px-FedEx_Express.svg.png" alt="FedEx Logo">
+    </div>
+    <div class="tracking-info">
+      <h2>Tracking Number: 7946 8231 5098</h2>
+      <p><strong>Shipment Type:</strong> FedEx International Priority</p>
+      <p><strong>Weight:</strong> 2.5 kg</p>
+      <p><strong>Package Description:</strong> Electronics</p>
+      <p><strong>Declared Value:</strong> $850.00</p>
+      <p><strong>Origin:</strong> Dubai, UAE</p>
+      <p><strong>Destination:</strong> New York, NY, USA</p>
+      <p><strong>Shipment Date:</strong> July 20, 2025</p>
+      <p><strong>Estimated Delivery Date:</strong> July 26, 2025</p>
+
+      <table class="tracking-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>July 20, 2025</td><td>Dubai, UAE</td><td>Shipment information sent to FedEx</td></tr>
+          <tr><td>July 21, 2025</td><td>Dubai, UAE</td><td>Picked up by FedEx</td></tr>
+          <tr><td>July 22, 2025</td><td>Dubai Intl. Airport</td><td>Departed FedEx facility</td></tr>
+          <tr><td>July 23, 2025</td><td>Paris, France (Transit Hub)</td><td>In transit</td></tr>
+          <tr><td>July 24, 2025</td><td>Memphis, TN, USA</td><td>Arrived at FedEx hub</td></tr>
+          <tr><td>July 25, 2025</td><td>New York, NY, USA</td><td>At local FedEx facility</td></tr>
+          <tr><td>July 26, 2025</td><td>New York, NY, USA</td><td>Out for delivery</td></tr>
+          <tr><td>July 26, 2025</td><td>New York, NY, USA</td><td>Delivered – Signed by "T. Moore"</td></tr>
+        </tbody>
+      </table>
+
+      <p class="status">✅ Delivered Successfully</p>
+      <p><strong>Delivery Confirmation:</strong> Signature obtained</p>
+      <p><strong>Tracking Source:</strong> FedEx Logistics (Simulated)</p>
+    </div>
+    <div class="footer">
+      &copy; 2025 FedEx Corporation (Simulation Page for Visual Use Only)
+    </div>
+  </div>
+</body>
+</html>
